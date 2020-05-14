@@ -1,8 +1,9 @@
 def appendMiddle(a,b):
-  print (a[:(len(a)//2)]+b+a[(len(a)//2):])   # function to append in middle
-  
+   a=(a[:len(a)//2]+b+a[(len(a)//2):])   # function to append in middle
+   return a
 if __name__ == '__main__':
   a=input()
   b=input()
-  appendMiddle(a,b)
+  a=appendMiddle(a,b)
+  print(a)
   
