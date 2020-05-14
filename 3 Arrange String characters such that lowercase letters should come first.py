@@ -9,4 +9,6 @@ for i in b:
         u.append(i)
 l="".join(sorted(l))
 u="".join(sorted(u))
-print(l+u)
+print("arranging characters giving precedence to lowercase letters \n",l+u)
+print("arranging characters giving precedence to uppercase letters: \n",u+l)
+
