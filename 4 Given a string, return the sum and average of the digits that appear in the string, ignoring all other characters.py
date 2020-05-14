@@ -21,5 +21,4 @@ for x in str1:
     
 
 l=(" ".join(l)).split()
-print(sum(map(int,l)))
-print(sum(map(int,l))/len(l))
+print("sum",sum(map(int,l)),"Percentage is",(sum(map(int,l))/len(l))*100 ))
