@@ -1,7 +1,7 @@
 z=""
 l=[]
 
-sum_digit = 0
+
 str1=input()
 for x in str1:
     if x.isdigit():
